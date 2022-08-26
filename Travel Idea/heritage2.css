@@ -1,0 +1,128 @@
+.header{
+    /* width: 100%; */
+   /* height: 90px;*/
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    /*padding: 2px;*/
+    margin-left: -6px;
+    margin-right: -7px;
+    margin-top: -7.2px;
+}
+
+
+.nav{
+   /* float: right;*/
+    margin-left: 60px;
+    
+}
+nav a{
+    text-decoration: none;
+    margin-right: 8px;
+    color: rgb(112, 74, 235);
+    font-size: 23px;
+    padding: 5px 6px;
+}
+
+h1{
+    font-size: 28px;
+ 
+}
+ nav a:hover{
+     border-bottom: 4px solid rgb(49, 12, 83);
+     transition: 0,4%;
+}
+body{
+    background-image: url(images/mligawa.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.footer{
+    background-color: rgb(69, 179, 150);
+    /* width: 100%; */
+    color: black;
+    line-height: 20px;
+    display: grid;
+    padding: 2% 0% 2%;
+    grid-template-columns: auto auto auto auto;
+    font-size: 17px;
+    margin-left: -7px;
+    margin-right: -7.6px;
+    margin-bottom: -6.8px;
+}
+.details{
+    width: 25%; 
+    margin: auto;
+    padding-right: 60%;
+
+    
+}
+#aside a{
+    text-decoration: none;
+    color: rgb(52, 52, 185);
+}
+h2{
+    color: aliceblue;
+    padding-left: 40%;
+    font-size: 24px;
+    font-style: oblique;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+#para1{
+    padding-left: 41%;
+    color: azure;
+    margin-top: -20.5%;
+    line-height: 150%;
+    font-size: 20px;
+}
+#img2{
+    margin-top: 8%;
+    padding-left: 30%;
+}
+#img1{
+    margin-top: 2%;
+}
+#para2{
+    margin-right: 45%;
+    color: white;
+    text-align: justify;
+    line-height: 150%;
+    font-size: 20px;
+    margin-bottom: 10%;
+    animation: y 10s 2;
+
+}
+#img4{
+    padding-left: 58%;
+    margin-top: -50%;
+    margin-bottom: 10%;
+}
+@keyframes y{
+    from{background-color:rgb(229, 229, 186) ;}
+    to{background-color: black;}
+}
+@media  screen and (max-width:1000px){
+    .header{
+     margin-right: -310%;
+        padding: -3%
+    }
+    #img1{
+       margin: 2% -10% 4% 0%;
+    }
+    #para1{
+        padding-left:8%;
+        display: block;
+        text-align:justify;
+        margin-right: -10%;
+        margin-top: 5%;
+    }
+    #para2{
+        margin-left: 2%;
+    }
+    .footer{
+        display: block;
+        margin-right: -310%;
+    }
+}   

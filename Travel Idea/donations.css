@@ -1,0 +1,266 @@
+.header{
+    /* width: 100%; */
+   /* height: 90px;*/
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    /*padding: 2px;*/
+    margin-left: -6px;
+    margin-right: -7px;
+    margin-top: -7.2px;
+}
+
+
+.nav{
+   /* float: right;*/
+    margin-left: 60px;
+    
+}
+nav a{
+    text-decoration: none;
+    margin-right: 8px;
+    color: rgb(112, 74, 235);
+    font-size: 23px;
+    padding: 5px 6px;
+}
+
+h1{
+    font-size: 28px;
+ 
+}
+ nav a:hover{
+     border-bottom: 4px solid rgb(49, 12, 83);
+     transition: 0,4%;
+}
+body{
+    background-image: url(images/backjpg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.footer{
+    background-color: rgb(69, 179, 150);
+    /* width: 100%; */
+    color: black;
+    line-height: 20px;
+    display: grid;
+    padding: 2% 0% 2%;
+    grid-template-columns: auto auto auto auto;
+    font-size: 17px;
+    margin-left: -7px;
+    margin-right: -7.6px;
+    margin-bottom: -6.8px;
+}
+.details{
+    width: 25%; 
+    margin: auto;
+    padding-right: 60%;
+
+    
+}
+#aside a{
+    text-decoration: none;
+    color: rgb(52, 52, 185);
+}
+#section1{
+    padding-left: 8%;
+}
+#section2{
+    padding-left: 45%;
+    margin-top: -17.5%;
+}
+
+
+#section3{
+    padding-left: 80%;
+    margin-top: -17.5%;
+}
+
+
+
+#section4{
+    padding-left: 4%;
+}
+
+
+#section5{
+    padding-left: 45%;
+    margin-top: -17.5%;
+}
+
+
+
+#section6{
+    padding-left: 85%;
+    margin-top: -17.5%;
+}
+#link{
+   /*text-decoration: none;*/
+   font-size: 25px;
+   font-style: oblique;
+   color: whitesmoke;
+   padding-left: 85%;
+}
+a:hover{
+    border-bottom: 2px;
+}
+#section10{
+    display: grid;
+   
+}
+#a1{
+    margin: 1% 1% 1% 1%;
+    text-align: justify;
+    color: azure;
+}
+#a2{
+    padding-left: 23%;
+    text-align: justify;
+    margin-top: -33%;
+    color: azure;
+}
+#pic1{
+    padding-left: 4%;
+}
+#p1{
+    padding: 0 80% 0 2%;
+}
+#p2{
+    padding: 0 70% 0 2%;
+}
+#pic2{
+    padding-left: 6%;
+}
+#p3{
+    padding: 0 55% 0 2% ;
+
+}
+#pic3{
+    padding-left: 7%;
+}
+#a3{
+    padding-left: 50%;
+    text-align: justify;
+    margin-top: -33%;
+    color: azure;
+}
+#a4{
+    padding-left: 78%;
+    text-align: justify;
+    margin-top: -38%;
+    color: azure;
+}
+
+#p4{
+    padding: 0 45% 0 2% ;
+}
+h4{
+    padding-left: 7%;
+}
+#a{
+    color: azure;
+    margin-left: 3%;
+    font-size: 25px;
+    padding-left: 80%;
+} 
+#sectionx{
+    display: flex;
+    color: azure;
+}
+#f1{
+    padding: 0 10% 2% 5%; 
+}
+#f2{
+    padding: 0 10% 2% 10%;  
+}
+#f3{
+    padding: 0 10% 2% 10%; 
+}
+h2{
+    color: azure;
+    padding-left: 3%;
+    font-style: oblique;
+    font-size: 26px;
+}
+
+@media  screen and (max-width:1000px){
+    .header{
+     margin-right: -250%;
+        padding: -3%
+    }
+    #section1{
+        margin-left: 25%;
+       
+    }
+    #section2{
+        margin-top: 5%;
+        margin-left: -10%;
+    }
+    #section3{
+        margin-top: 5%;
+        margin-left: -45%;
+    }
+    #section4{
+        margin-left: 32%;
+    }
+    #section5{
+       margin-top: 5%;
+       margin-left: -8%;
+    }
+    #section6{
+       margin-top: 5%;
+       margin-left: -45%;
+    }
+    
+
+    .footer{
+        display: block;
+        margin-right: -250%;
+    }
+}
+
+fieldset.border {
+    width:360px;
+}
+input:not([type=radio]):not([type=checkbox]), textarea {
+    width: 250px;
+    box-sizing: border-box;
+}
+textarea {
+    resize  : none;
+}
+label {
+    width: 100px;
+    display: inline-block;
+    vertical-align: top;
+}
+input:focus, textarea:focus {
+  background   : #d3d3d3;
+  outline      : none;
+}
+form{
+    background-color: #88889d;
+}
+#title1{
+ color: rgb(224, 228, 231);
+ font-style: oblique;
+}
+.price{
+    background-color: azure;
+}
+
+h3{
+    color: rgb(1, 9, 16);
+}
+.sectionshop{
+    background-color: #aec1ba;
+}
+
+
+.shop-item-image5{
+    padding-left: 10%;
+}
+.shop-item-image6{
+    padding-left: 10%;
+}
+

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activities</title>
+    <link rel="stylesheet" href="./activities.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="./homepage.html"> <img src="images/logo.jpg" alt="Logo" height="96" width="90">
+            </a>
+        </div>
+        <h1>Travel Idea</h1>
+        <div class="nav">
+            <nav>
+                <a href="./homepage.html">Home</a> |
+                <a href="./wildlife.html">Wildlife Attractions</a> |
+                <a href="./beaches.html">Beaches</a> |
+                <a href="./activities.html">Activities</a> |
+                <a href="./heritage.html">Heritage Locations</a> |
+                <a href="./donations.html">Hotels & Donations</a>
+            </nav>
+        </div>
+    </header>
+    <h2>Activities for Tourists</h2>
+    <article class="body">
+    <section>
+        <h3>
+         Safari
+        </h3>
+        <p id="para1">Wasgamuwa National Park <br>
+        Elephant herd in Wasgamuwa National Park, Sri Lanka
+        Located in the Matale and Polonnaruwa Districts of Sri Lanka, Wasgamuwa National Park offers its visitors one of the best safaris. Several times in your safari, youll come across the herds of wild Sri Lankan elephants who dominate this national park. Animals you can spot: elephants, purple-faced langur, golden palm civet, mugger crocodile, red-faced malkoha and various bird species. <br>
+        Safari prices: Stars from LKR 2,700</p>
+        <div id="img1">
+            <img src="images/safari.jpg" alt="Safari" height="400">
+        </div>
+        <section id="link">
+            <a href="https://www.mahoora.com/camps/seperator/explorer-by-mahoora-wasgamuwa.html">Click here</a>
+        </section>
+    </section>
+    <section>
+        <h3>Surfing</h3>
+        <div id="img2">
+            <img src="images/surf2.jpg" alt="Surfing" width="600" height="400">
+        </div>
+        <p id="para2">
+            It's been not too many years since surfing has come into the frame of this fabulous island and gained blistering popularity, making Sri Lanka widely-known tropical surf paradise. And there's a good reason for that. Warm water, palm-fringed sandy beaches and all kind of surf spots for any taste and level: reef breaks, beach breaks, point breaks. Variety is the keyword. To give you a helping hand, we created this Sri Lanka surf guide with all the necessary info you need to know for perfect surf get away.
+        </p>
+        <section id="link2">
+            <a href="https://thesurferweligama.com/blog/read/surfing-in-sri-lanka-the-ultimate-guide-to-the-best-surf-sports-in-sri-lanka-surfing">Click here</a>
+        </section>
+     </section> 
+    <section>
+        <h3>Hiking</h3>
+        <p id="para3">
+            Hiking in Sri Lanka is something which most travellers will have dreamed of at some point. Even just the name of the country conjures up images of lush, green rainforest, rolling mountains, tropical wildlife and turquoise water. The best hiking in Sri Lanka showcases that. The country was named the “best country in the world” for travellers to visit back in 2019 by Lonely Planet. They cited its “rich and accessible wildlife” as well as the surf scene, culture and the friendliness of the people.
+        </p>
+        <div id="img3">
+            <img src="images/hike2.jpg" alt="Hiking" width="700">
+        </div>
+        <section id="link3">
+            <a href="https://www.viator.com/Central-Sri-Lanka-tours/Hiking-and-Camping/d28132-g9-c35">Click here</a>
+        </section>
+    </section>
+    <br>
+    <br>
+    <form>
+                           <h2> Book your Reservations </h2>
+                        <fieldset>
+                           <h3>Local Tourist</h3>
+                           <p>
+                             <label for="Lactivities">Activities :</label>
+                             <select name="Lactivities" id="Lactivities">
+                                 <option value=""></option>
+                                 <option value="Safari">Safari</option>
+                                 <option value="Surfing">Surfing</option>
+                                 <option value="Hiking">Hiking</option>
+                             </select>
+                           </p>
+                       
+                             <label for="n1"> Number of Local Adults :</label>
+                             <input type="number" id="n1" name="n1"  min="0" max="200" value="0" onclick="addCurrent()">
+                       
+                             <label for="n2"> Number of Local Children below 15 :</label>
+                             <input type="number" id="n2" name="n2" min="0" max="200" value="0" onclick="addCurrent()">
+                       
+                             <label for="n3">  Number of Local Children below 6 :</label>
+                             <input type="number" id="n3" name="n3" min="0" max="200" value="0" onclick="addCurrent()">
+                             <br><br>
+                                                      
+                           <label for="time"> Duration :</label>
+                       
+                             <input type="radio" name="time" id="time" value="Three Hours" > Three Hours
+                             
+                             <input type="radio" name="time" id="time" value="Half Day"> Half Day
+                           
+                             <input type="radio" name="time" id="time" value="Full Day"> Full Day
+                             
+                             <input type="radio" name="time" id="time" value="Two Days"> Two Days
+                             <br><br>
+                             
+                           <label for="extra"> Extras :</label>
+                           <input type="number" id="exA" name="exA" min="0" max="200" value="0" onclick="addCurrent()"> Annual Pass
+                           <br>
+                           <input type="number" id="exF" name="exF" min="0" max="200" value="0" onclick="addCurrent()"> Food Token
+                           <br><br>
+                -      </fieldset>                 
+              <fieldset>
+              <h3>Foreign Tourist</h3>
+          
+                <p>
+                  <label for="Factivities">Activities :</label>
+                  <select name="Factivities" id="Factivities">
+                      <option value=""></option>
+                      <option value="Safari">Safari</option>
+                      <option value="Surfing">Surfing</option>
+                      <option value="Hiking">Hiking</option>
+                  </select>
+                </p>
+          
+                <label for="n4"> Number Of Adults :</label>
+                <input type="number" id="n4" name="n4" min="0" max="200" value="0" onclick="addCurrent()">
+          
+                <label for="n5"> Number Of Children :</label>
+                <input type="number" id="n5" name="n5" min="0" max="200" value="0" onclick="addCurrent()">
+                <br><br>
+                  <label for="Ftime"> Duration :</label>
+          
+                  <input type="radio" name="Ftime" id="t1" value="Three Hours" > Three Hours
+                  
+                  <input type="radio" name="Ftime" id="t2" value="Half Day"> Half Day
+                
+                  <input type="radio" name="Ftime" id="t3" value="Full Day"> Full Day
+                  
+                  <input type="radio" name="Ftime" id="t4" value="Two Days"> Two Days
+                <br><br>
+          
+                <label for="extra1"> Extras :</label>
+                <input type="number" id="exA1" name="exA1" min="0" max="200"  value="0" onclick="addCurrent()"> Annual Pass
+                <br>
+                <input type="number" id="exF1" name="exF1" min="0" max="200"  value="0" onclick="addCurrent()"> Food Token
+                  <br>
+                  <br>
+                  
+                  </fieldset>
+
+                  <hr>
+                
+                <br>
+                  <button type onclick ="myFunction()" id="submit" name="submit" class="btn">Add Order</button>
+               
+                  <br><br>
+                  <button type="submit" onclick ="myFunction1()" id="submit2" name="submit2" class="btn1">Place Order</button>
+               
+                 
+              </form>
+
+              <div class="price">
+                  <hr> 
+                  <h3>Total Amount</h3>
+                  <hr> 
+                  <p>Current Orders: <span id="price1"> 0 </span></p>
+          
+                  <p>Overall Orders: <span id="price2">0</span></p>
+              
+                  <p>Cost Of Current Orders: <span id="price3">0</span> LKR</p>
+                  
+                  <p>Overall Cost: <span id="price4">0</span> LKR</p>
+                  
+                  <hr>
+              </div>
+            <br><br>
+          
+    </article>
+   
+
+    <footer class="footer">
+            <div class="details">
+            <p>Tourism Hotline
+                <br>
+                1912
+            </p>
+            <p>   
+                Ambulance Service
+                <br>
+                1990
+            </p>
+            <p>Contact us
+                <br>
+                +94715389029
+            </p>
+            </div>
+            <div id="aside">
+                <aside>
+                    <a href="https://www.sltda.gov.lk/">Sri lanka Tourism Development Authority</a><br><br>
+                    <a href="https://www.slithm.edu.lk/">Sri lanka Institute of Tourism and Hotel Management</a><br><br>
+                    <a href="https://www.tourismmin.gov.lk/">Ministry of Tourism</a><br><br>
+                    <a href="https://www.thasl.lk/">Tourist Hotel Association Of Sri lanka</a><br><br>
+                    <a href="https://www.srilankan.com/">Srilankan Airlines</a><br><br>
+                    <a href="https://meetinsrilanka.com/">Sri lanka Tourism Convention Bureau</a>
+                </aside>
+            </div>
+            <br>
+            <div>
+            <a href="https://www.thrillophilia.com/things-to-do-in-sri-lanka">More references</a>
+            </div class="copy">
+            <p>
+                &copy;2022 All Rights Reserved by Sri lanka Tourism Development Authority
+            </p>
+            
+    </footer>
+    <script src="./activities.js"></script>
+    <script src="./main.js"></script>
+
+
+    
+</body>
+</html>
